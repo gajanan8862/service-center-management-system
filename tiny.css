@@ -1,0 +1,146 @@
+.hidden-box{
+    height: 67vh;
+    width: 35%;
+    position: fixed;
+    padding: 2vh 1% 2vh 1%;
+    top: 20vh;
+    left: 35%;
+    border: 1px solid rgb(152, 4, 4);
+    border-radius: 2px;
+    box-shadow: rgb(152, 149, 155) 0px 1px 10px 1px;
+    display: none;
+    background-color: rgb(251, 253, 255);
+    overflow: auto;
+}
+.hidden-box h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.1rem;
+    margin-bottom: 5vh;
+}
+.hidden-box span{
+    font-size: 1.2rem;
+}
+#find-btn , #dlt-btn{
+    width: 100px;
+    height: 6vh;
+    font-size: 1.5rem;
+    background-color: chartreuse;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#find-btn:hover{
+    background-color: rgb(114, 218, 10);
+}
+
+#dlt-btn{
+    background-color: gainsboro;
+    margin-top: 6vh;
+}
+
+.display-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.close{
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+}
+
+.close button{
+    width: 4vh;
+    height: 4vh;
+    border: 1px solid rgb(109, 70, 70);
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.close button:hover{
+    background-color: rgb(242, 232, 232);
+    box-shadow: rgb(152, 149, 155) 0px 1px 10px 1px;
+}
+
+#box1, #box2, #box3, #box4{
+    width: 64%;
+    left: 18%;
+    background-image: linear-gradient(to right, rgb(121, 89, 248) ,rgb(248, 120, 242));
+}
+
+#box1>.close, #box2>.close, #box3>.close, #box4>.close{
+    width: 63.2%;
+}
+
+.hidden-box input[type="text"]{
+    width: 220px;
+    padding: 5px 10px;
+    height: 5vh;
+    margin-top: 2vh;
+    font-size: 1.4rem;
+
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border: none;
+    color: rgb(37, 7, 32);
+    font-size: 1.5rem;
+    border-spacing: 0;
+    background-color: rgb(51, 8, 57);
+    border-radius: 14px;
+    width: 80%;
+}
+th{
+    color: white;
+    height: 7vh;
+}
+td{
+    border: 1px solid rgb(32, 32, 44);
+    border: none;
+    padding: 1vh 2vh;
+    background-color: rgb(255, 255, 255);
+}
+td, th{
+    width: max-content;
+}
+#box9 h2,#box10 h2{
+    margin-top: 6vh;
+}
+#box9 input[type="password"], #box10 input[type="password"]{
+    width: 200px;
+    background:none;
+    border: 1px solid black;
+    height: 6vh;
+    margin-top: 1vh;
+}
+
+#cbox10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#admin-pass-chng-btn, #login-pass-chng-btn{
+    background-color: rgb(201, 210, 206);
+    width: 41%;
+    border: 1px solid rgb(103, 101, 101);
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7vh;
+    padding: 1vh 1vh;
+}
+
+#admin-pass-chng-btn:hover{
+    background-color: rgb(185, 192, 188);
+    box-shadow: rgb(213, 211, 215) 0px 1px 10px 1px;
+}

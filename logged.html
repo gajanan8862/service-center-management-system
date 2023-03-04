@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option checking</title>
+</head>
+<body>
+
+    <select name="mode" id="mode">
+        <option value="">Center</option>
+        <option value="">Banking</option>
+        <option value="">Marketing</option>
+        <option value="">Others</option>
+    </select><br><br>
+    <button onclick="show()">Click</button><br><br>
+    <input type="text">
+    <script>
+        function show(){
+            console.log("show function is called now");
+            let selectElement = document.querySelector('#mode');
+            let mode = selectElement.options[selectElement.selectedIndex].value;
+            console.log(mode);
+        }
+    </script>
+</body>
+</html>

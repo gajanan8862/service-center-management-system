@@ -1,0 +1,113 @@
+.div11{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(4, 255, 0);
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.lock{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border: 0px solid black;
+    background-color: rgb(4, 255, 0);
+}
+.anim-btn{
+    position: absolute;
+}
+.div2{
+    width: 450px;
+    height: 50vh;
+    position: relative;
+    margin-bottom:auto;
+    border: 0px solid black;
+    background-color: rgb(229, 255, 0);
+    animation-name: anim32;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+}
+
+.transformate{
+    transition-duration: 3s;
+    transform: scaleX(50vh);
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+
+.animate{
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    0% {background-color: rgb(179, 255, 0);left: 0px;top: 0px;}
+    25% {background-color: rgb(119, 255, 0);left: 200px;top: 0px;}
+    50% {background-color: rgb(0, 255, 17);left: 200px;top: 200px;}
+    75% {background-color: rgb(47, 181, 6);left: 0px;top: 200px;}
+    100% {background-color: rgb(7, 139, 22);left: 0px;top: 400px;}
+}
+
+@keyframes anim1 {
+    0% {
+        height: 100vh;
+        width: 100%;
+    }
+    25% {
+        
+    }
+    50% {
+        
+    }
+    75% {
+        
+    }
+    100% {
+        height: 0px;
+        width: 0%;
+    }
+}
+
+@keyframes anim2{
+    0%{
+        top: 200px;
+        height: 50vh;
+    }
+    100%{
+        top: 300px;
+        height: 0vh;
+
+    }
+}

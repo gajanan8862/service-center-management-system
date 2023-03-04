@@ -1,0 +1,109 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.img-sec img{
+    width: 53%;
+    height: 119.6vh;
+    position: absolute;
+    left: 0;
+    margin-left: -4%;
+    top: 0;
+    z-index: -10;
+    opacity: 1;
+}
+
+.technocad-title{
+    width: 100%;
+    color: rgb(23, 7, 143);
+    font-size: 5.5rem;
+    height: 11vh;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-shadow:0px -1px 1px rgb(41, 6, 237);
+}
+
+.create-profile{
+    font-size: 30px;
+    border: 2px solid rgb(103, 13, 237);
+    position: absolute;
+    width: 33%;
+    height: 75vh;
+    margin-top: 17vh;
+    background-color: aliceblue;
+    display: none;
+    padding-top: 0;
+    border-radius: 4px;
+    box-shadow: rgba(247, 250, 217, 0.12) 0px 12px 14px 0px, rgba(0, 0, 0, 0.539) 0px 2px 16px 0px;
+}
+.visible-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-profile input[type="text"]{
+    border: 2px solid blue;
+    width: 65%;
+    height: 6vh;
+    margin-top: 2.6vh;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    padding: 0.3vh 1.5vh;
+}
+
+#cancel-create{
+    width: 30px;
+    height: 10px;
+    padding-bottom: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(29, 27, 27);
+    margin-top: 2.4vh;
+    cursor: pointer;
+    border: 2px solid rgb(65, 59, 59);
+    border-radius: 4px;
+    margin-left: 86%;
+}
+#crt-usr-title{
+    margin-bottom: 6vh;
+    font-size: 2.2rem;
+    
+}
+#crt-usr,.crt-prf{
+    width: 43%;
+    height: 8vh;
+    margin-top: 4rem;
+    background-color: rgb(100, 255, 73);
+    border: 1.5px solid grey;
+    font-size: 1.6rem;
+    word-spacing: 3px;
+    border-radius: 5px;
+}
+.crt-prf{
+    margin-top: 0.5rem;
+    margin-left: 28%;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: rgb(154, 245, 51);
+    box-shadow: rgba(247, 250, 217, 0.12) 0px 5px 5px 0px, rgba(0, 0, 0, 0.539) 0px 2px 10px 0px;
+}
+.crt-prf:hover{
+    background-color: rgb(126, 220, 19);
+    box-shadow: rgba(247, 250, 217, 0.12) 0px 5px 5px 0px, rgba(0, 0, 0, 0.539) 0px 2px 10px 0px;
+}
+
+#crt-usr:hover{
+    box-shadow: rgba(153, 170, 25, 0.12) 0px 12px 14px 0px, rgba(13, 3, 197, 0.539) 0px 2px 16px 0px;
+    cursor: pointer;
+}

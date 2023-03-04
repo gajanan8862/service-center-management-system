@@ -1,0 +1,406 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color: white;
+    width: 99.7%;
+    height: 655px;
+    border: 1px solid rgb(24, 24, 24);
+}
+.technocad-title{
+    color: rgb(27, 11, 131);
+    font-size: 65px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: rgba(79, 147, 249, 0.673);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left-container{
+        width: 67%;
+        height: 566px;
+        border: 1px solid grey;
+        float: left;
+}
+.right-container{
+    width: 26%;
+    height: 450px;
+    border: 3.8px solid rgb(28, 114, 226);
+    float: left;
+    border-radius: 14px;
+    margin-left:3.5%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(153, 170, 25, 0.12) 0px 12px 14px 0px, rgba(35, 41, 33, 0.539) 0px 2px 16px 0px;
+}
+.user-icon{
+    width: 32%;
+    height: auto;
+    margin-top: -16%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.right-container>input[type="text"]{
+    border:none;
+    border-radius: 4px;
+    margin-top: 5px;
+    height: 40px;
+    font-size: 27px;
+    width: 80%;
+    text-align: center;
+}
+#logout-btn{
+    width: 160%;
+    font-size: 30px;
+    background-color: greenyellow;
+    border: 2px solid rgb(11, 73, 102);
+    border-radius: 5px;
+    margin-top: 90px;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.left-container>.nav{
+    border:none;
+    height: 50px;
+    width: 100%;
+}
+
+#btn-1,#btn-2{
+    width: 50%;
+    float: left;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+}
+#btn-1:hover,#btn-2:hover{
+    background-color: antiquewhite;
+}
+#btn-1{
+    border-right: 2px solid black;
+    border-bottom: 1px solid grey;
+}
+#btn-2{
+    border-bottom: 1px solid grey;
+}
+.register{
+    width: 66.6%;
+    height: 475px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    padding-top: 20px;
+    border-top: none;
+}
+.registered{
+    position: absolute;
+    width: 66.6%;
+    height: 477px;
+    z-index: 3;
+    display: none;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+.display-block{
+    display: block;
+}
+.div11{
+    border: 1.8px solid rgb(76, 71, 71);
+    border-radius: 15px;
+    width: 33%;
+    padding: 40px 10%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+    padding: 15px 35px 15px 25px;
+}
+.div22{
+    width: 38%;
+    border: 1.8px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+    padding: 15px 25px 15px 25px;
+}
+.div33{
+    width: 38%;
+    border: 1.8px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 20px;
+    padding: 15px 25px 15px 25px;
+}
+.div44{
+    width: 33.5%;
+    height: 80px;
+    border: 1.8px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    float: left;
+    margin-left: 4%;
+    margin-top: -117px;
+    padding: 5px 5px;
+    padding: 15px 25px 15px 25px;
+}
+.div11>input,.div22>input,.div33>input,.div44>input,.dt-input{
+    border: 1px solid blue;
+    border-radius: 4px;
+    display: block;
+    width: 94%;
+    height: 30px;
+    margin:10px 0 0 0;
+    font-size: 20px;
+}
+.dt-input{
+    padding: 5px 0 5px 10px;
+}
+
+.remark-title,.inner-title{
+    color: rgb(18, 16, 16);
+    margin-top: -16px;
+    margin-bottom: 16px;
+    margin: -26px 0 20px 0  ;
+    background-color: white;
+    width: max-content;
+}
+.mode-select{
+    border: 1px solid blue;
+    border-radius: 4px;
+    width:95%;
+    margin-top: 10px;
+}
+#mode{
+    border: 1px solid blue;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 12.8%;
+    width: 40.5%;
+}
+#mode-label{
+    width: 20%;
+    font-size: 20px;
+}
+
+.button-bar{
+    border: 2px solid black;
+    border: none;
+    float: left;
+    width: 62.3%;
+    display: flex;
+    padding-left: 38%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 41px;
+    background-color: aquamarine;
+}
+.button-bar>input{
+    height: 50px;
+    width: 27%;
+    font-size: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 7px;
+    margin-left: 8%;
+    cursor: pointer;
+}
+#submit{
+    margin-left: -17%;
+    border: 2px solid rgb(7, 4, 236);
+    background-color: rgb(118, 244, 21);
+    
+}
+
+.srsdivs{
+    border:none;
+    width: 90%;
+    height: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(219, 214, 214, 0.12) 0px 12px 6px 0px, rgba(0, 0, 0, 0.539) 0px 2px 5px 0px;
+}
+.srsdivs:hover{
+    box-shadow: rgba(153, 170, 25, 0.12) 0px 12px 14px 0px, rgba(103, 112, 104, 0.539) 0px 4px 16px 0px;
+}
+
+.subdivs{
+    border:none;
+    width: 85%;
+    height: 9vh;
+    display: flex;  
+    align-items: center;
+    background: rgb(232, 228, 228);
+    justify-content: space-around;
+}
+
+.detailsbtn{
+    width: 13%;
+    height: 6vh;
+    border: 1px solid rgb(4, 0, 255);
+    background-color: rgb(190, 255, 92);
+    margin-left: 1%;
+    font-size: 1.5rem;
+}
+.detailsbtn:hover{
+    background-color: rgb(159, 249, 24);
+    cursor: pointer;
+}
+
+.regiddiv, .regdtdiv, .pendamtdiv, .statusdiv{
+    height: 7vh;
+    width: 23%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: none;
+}
+
+.subdivs > div {
+    font-size: 1.2rem;
+}
+
+.subdivs > div > label{
+    color: blue;
+    font-size: 1.1rem;
+    margin-top: 0.4vh;
+}
+
+.service-details{
+    border: 1px solid rgb(0, 0, 0);
+    width: 66.7%;
+    margin-top: -23.0vh;
+    height: 98.6vh;
+    position: fixed;
+    margin-left: 0%;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    box-shadow: rgba(153, 170, 25, 0.12) 0px 12px 14px 0px, rgb(103 112 104 / 103%) 0px 0px 19px 0px;
+}
+.head-div{
+    margin-top: 0;
+    background-color: rgb(225, 220, 220);
+    padding-bottom: 2vh;
+}
+.head-div h1{
+    font-size: 3rem;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+    font-family: serif;
+}
+
+.show{
+    display: block;
+}
+
+.hide-btn{
+    margin-left: 93%;
+    margin-top: 2vh;
+    width: 5%;
+    height: 5vh;
+    font-size: 1.2rem;
+}
+
+.input-field{
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 2vh;
+    left: 500px;
+    font-size: 18px;
+}
+
+.service-details label{
+    color: rgb(26, 26, 25);
+    display: inline;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    border: 1px solid yellow;
+    border: none;
+}
+
+.gen{
+    border: 1px solid rgb(10, 10, 10);
+    width: 44%;
+}
+.remarks{
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
+}
+.payment{
+    border: 1px solid rgb(17, 16, 16);
+    width: 44%;
+    margin-top: 1.5vh;
+}
+.all-dates{
+    border: 1px solid rgb(26, 27, 25);
+    margin-top: 1vh;
+    width: 38.04%;
+}
+.reg-det{
+    border: 1px solid green;
+    width: 38%;
+}
+.payment, .gen, .all-dates, .remarks, .reg-det{
+    display: inline-block;
+    margin-left: 3%;
+    padding: 1.5% 2%;
+}
+
+.payment, .gen, .all-dates, .remarks, .reg-det{
+    border: none;
+}
+.input-field{
+    border: none;
+}
+
+.buttons-div{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    border: 1px solid black;
+    width: 94%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+}
+
+.buttons-div button{
+    width: 20%;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius:3px;
+    font-size: 1.5rem;
+}
+.buttons-div :nth-child(1){
+    background-color: rgb(171, 171, 171);
+}
+.buttons-div :nth-child(2){
+    background-color: greenyellow;
+}
+.buttons-div :nth-child(3){
+    background-color: red;
+}
+.service-details label{
+    font-size: 20px;
+}
+
+#remark-det{
+    width: 60%;
+    height: 4.2vh;
+    padding-bottom: 4vh;
+}
