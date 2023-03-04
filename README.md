@@ -1,2 +1,2 @@
-# college-management-system
-i develop a software for college management using html, css, javascript , php and mysql
+# service-center-management-system
+i develop a software for service center management using html, css, javascript , php and mysql
